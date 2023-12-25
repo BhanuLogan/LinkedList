@@ -114,7 +114,7 @@ class MyLinkedList {
     }
     
     // TC: O(1)
-    private void deleteAtHead() {
+    public void deleteAtHead() {
         if(length == 1) {
             head = null;
             tail = null;
@@ -126,7 +126,7 @@ class MyLinkedList {
     }
     
     // TC: O(1)
-    private void deleteAtTail() {
+    public void deleteAtTail() {
         if(length == 1) {
             // If there is only one node, head and tail don't point to anything
             head = null;
